@@ -305,7 +305,8 @@ class Event:
                 str = str[length:]  # pass on to next track
 
             else:
-                has_meta = FALSE
+                # skip over unknown meta event
+                str = str[length:]
 
         elif meta_msg == meta.SystemExclusive or \
                 meta_msg == meta.SystemExclusivePacket:
