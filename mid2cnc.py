@@ -334,9 +334,10 @@ else:
 
 suppress_comments = 0 # Set to 1 if your machine controller does not handle ( comments )
 
-tempo=None # should be set by your MIDI...
+tempo=480000 # should be set by your MIDI...
 
 def main(argv):
+    global tempo
     x=0.0
     y=0.0
     z=0.0
