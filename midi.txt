@@ -1,0 +1,2 @@
+
+python mid2cnc.py -infile Beethoven-FuerElise.mid -machine cupcake -outfile furelise.gcode --verbose
